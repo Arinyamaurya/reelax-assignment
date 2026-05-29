@@ -7,7 +7,7 @@ A pixel-perfect React implementation of the **Checkout Review** screen built fro
 
 ## 🔗 Live Demo
 
-[View Live on Vercel](https://reelax-assignment.vercel.app) <!-- Replace with your actual URL -->
+[View Live on Vercel](https://reelax-assignment-vert.vercel.app/) <!-- Replace with your actual URL -->
 
 ---
 
