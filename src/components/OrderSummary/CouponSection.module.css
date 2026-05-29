@@ -1,0 +1,119 @@
+/* ─── CouponSection ─────────────────────────────────────────────── */
+
+.wrapper {
+  padding-top: 14px;
+}
+
+/* Accordion header */
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.headerLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Manual input row */
+.inputRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #374151;
+  background: #fff;
+  transition: border-color 0.15s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.btnApply {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnApply:hover {
+  background: #1d4ed8;
+}
+
+/* Coupon option row */
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-bottom: 6px;
+  transition: background 0.12s, border-color 0.12s;
+  user-select: none;
+}
+
+.option:hover:not(.optionActive) {
+  background: #f9fafb;
+}
+
+.optionActive {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.optionCode {
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.optionDesc {
+  font-size: 12px;
+  color: #6b7280;
+  margin-left: 8px;
+}
+
+/* Radio indicator */
+.radio {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #d1d5db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.radioSelected {
+  background: #2563eb;
+  border-color: #2563eb;
+}

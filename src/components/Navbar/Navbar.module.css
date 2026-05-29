@@ -1,0 +1,123 @@
+/* Navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  height: 54px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Search bar */
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 7px 12px;
+  width: 272px;
+  background: #f9fafb;
+}
+
+.searchIcon {
+  flex-shrink: 0;
+  color: #9ca3af;
+}
+
+.searchPlaceholder {
+  font-size: 13px;
+  color: #9ca3af;
+  white-space: nowrap;
+}
+
+/* Action group */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Upgrade button – amber */
+.btnUpgrade {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #f59e0b;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnUpgrade:hover {
+  background: #d97706;
+}
+
+/* Create Campaign button – blue */
+.btnCampaign {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnCampaign:hover {
+  background: #1d4ed8;
+}
+
+/* Avatar circle */
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Hamburger / menu button */
+.menuBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #6b7280;
+  padding: 2px;
+}
+
+.menuBtn:hover {
+  color: #374151;
+}
+
+/* ─── Responsive ────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .searchBar {
+    width: 160px;
+  }
+
+  .btnUpgrade span,
+  .btnCampaign span {
+    display: none;
+  }
+}

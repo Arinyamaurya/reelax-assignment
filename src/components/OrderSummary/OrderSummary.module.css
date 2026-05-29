@@ -1,0 +1,15 @@
+/* ─── OrderSummary ──────────────────────────────────────────────── */
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Shared card surface used by WalletSection + CouponSection */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 20px;
+}

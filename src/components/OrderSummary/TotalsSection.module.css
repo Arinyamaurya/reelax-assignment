@@ -1,0 +1,73 @@
+/* ─── TotalsSection ─────────────────────────────────────────────── */
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 18px 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.rowBorder {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 0;
+}
+
+.rowLabel {
+  font-size: 13.5px;
+  color: #6b7280;
+}
+
+.rowValue {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  margin-bottom: 16px;
+}
+
+.totalLabel {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.totalAmount {
+  font-size: 22px;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.btnPay {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnPay:hover {
+  background: #1d4ed8;
+}
+
+.btnPay:active {
+  background: #1e40af;
+}
