@@ -11,12 +11,6 @@ A pixel-perfect React implementation of the **Checkout Review** screen built fro
 
 ---
 
-## 📸 Preview
-
-![Checkout Review UI](./src/assets/preview.png) <!-- Add a screenshot if you have one -->
-
----
-
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
